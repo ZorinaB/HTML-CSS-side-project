@@ -8,6 +8,10 @@
         cursor: pointer;
         margin-right: 15px;
         margin-bottom: 15px;
+        transition: opacity 0.5s;
+    }
+    .Uber-button:hover {
+        opacity: 0.8;
     }
 
     .amazon-button{
@@ -19,6 +23,10 @@
         width: 140px;
         border-radius: 15px;
         margin-right: 15px;
+        transition: 0.5s;
+    }
+    .amazon-button:hover{
+        background-color: rgb(275, 200, 39);
     }
 
     .github-button{
@@ -31,6 +39,10 @@
         font-size: 15px;
         border-radius: 5px;
         cursor: pointer;
+        transition: box-shadow 0.5s;
+    }
+    .github-button:hover{
+        box-shadow: 2px 11px 7px rgba(0, 0, 0, 0.12)
     }
 
     .linkedin-button{
@@ -42,6 +54,10 @@
         border-radius: 15px;
         font-weight: bold;
         cursor: pointer;
+        transition: background-color 0.15s;
+    }
+    .linkedin-button:hover{
+        background-color: navy;
     }
 
     .linkedin-button2{
@@ -56,7 +72,12 @@
         font-weight: bold;
         font-size: 13px;
         cursor: pointer;
+        transition: border-width 0.15s;
     }
+    .linkedin-button2:hover{
+        border-width: 2.5px;
+    }
+
 </style>
 
 <button class="Uber-button">Request Now</button>
@@ -66,4 +87,5 @@
 <button class="github-button">Sign up</button>
 
 <button class="linkedin-button"> Apply on company website</button>
+
 <button class="linkedin-button2">Save</button>

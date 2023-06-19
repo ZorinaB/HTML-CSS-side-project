@@ -1,0 +1,6 @@
+<style>
+    .Tahoma{
+        font-family: Tahoma;
+    }
+</style>
+<p class="Tahoma">This is the Tahoma font</p>

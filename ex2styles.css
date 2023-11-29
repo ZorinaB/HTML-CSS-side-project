@@ -1,0 +1,18 @@
+.Stretch-button{
+    color: white;
+    background-color: green;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 25px;
+    padding-right: 25px;
+    font-size: 15px;
+    border-radius: 2px;
+    transition: .50s;
+    }
+.Stretch-button:hover{
+    padding-top: 25px;
+    padding-bottom: 25px;
+    padding-left: 50px;
+    padding-right: 50px;
+    font-size: 30px;
+}
